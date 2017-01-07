@@ -1,5 +1,5 @@
 /* Background pattern from subtlepatterns.com */
-/* This site was created by Jakub "HOMER" Kotuła / xerdnesspl
+/* This site was created by Jakub "HOMER" KotuÅ‚a / xerdnesspl
 GNU 3.0
 Don't remove this ! */
 body
@@ -47,6 +47,8 @@ footer
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
 	
 	
 }
@@ -54,7 +56,9 @@ footer
 input[type=text],
 input[type=email],
 input[type=number]
+
 {
+		margin-top: 10px;
 		width: 300px;
 		background-color: #efefef;
 		color: #666;
@@ -66,8 +70,17 @@ input[type=number]
 		outline: none;
 }
 
+input[type=radio]
+{
+	margin-top: 20px;
+	
+	
+	
+	
+}
 textarea
 {
+	margin-top: 10px;
 	width: 300px;
 	outline: none;
 	
@@ -78,6 +91,7 @@ textarea
 
 input[type=submit]
 {
+		margin-top: 30px;
 		width: 300px;
 		background-color: #FE2E2E;
 		font-size: 20px;
@@ -95,4 +109,3 @@ input[type=submit]:hover
 {
 	background-color: #DF0101;	
 }
-
